@@ -1,0 +1,63 @@
+body{
+	background: #000000;
+	text-align: justify;
+}
+header{
+	background: rgb(248,249,250);
+}
+.navcolor{
+	background: #ffffff;
+}
+#srchbtn{
+	border-radius: 0 10px 10px 0;
+	background: rgb(220,53,69);
+	padding: 0.6rem;
+}
+h1{
+	text-align: left;
+}
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+.card-front {
+  transform: rotateX(0deg);
+}
+
+.card-back {
+  transform: rotateX(180deg);
+  position: absolute;
+  top: 0;
+}
+.card-flip:hover .card-front {
+  transform: rotateX(-180deg);
+}
+  
+.card-flip:hover .card-back {
+  transform: rotateX(0deg);
+}
+.dark-layout{
+	background: #000000;
+	color:#ffffff;
+}
+h3{
+	margin-top: 20px;
+	text-align: center;
+}
+blockquote{
+	text-align: center;
+	color: #000000;
+}
+footer{
+	background: rgb(248,249,250);
+	clear: both;
+}
+.footer-copyright{
+	color: #ffffff;
+	background: #000000;
+}
